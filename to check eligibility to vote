@@ -1,0 +1,19 @@
+#include <iostream> 
+
+using namespace std; 
+  
+int main() {
+    int age;
+    
+    cout<<"\n>> WELCOME TO THE VOTING SYSTEM <<\n"<<"\n"<<"___PLEASE ENTER YOUR AGE ___\n";
+    cin>>age;
+    
+    if(age>=18)
+    {
+        cout<<"Congratulation you are eligible to vote\n";
+    }
+    else
+    {
+        cout<<"Sorry you are not eligible to vote, you've to wait till your age completion!!!";
+    }
+}
